@@ -1,3 +1,23 @@
 body{
     background-color: #777333;
+    margin:0%;/*Espaço externo da página*/
+    padding:0%;/*Espaço interno da página*/
+
 }
+
+ul{
+    display: inline;
+    margin-top: -3%;
+    margin-left: -1.5%;
+}
+
+nav{
+    margin-top: -2%;
+    height: 10%;
+    margin-bottom: 1.3%;
+}
+
+
+}
+
+
