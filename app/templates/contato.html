@@ -1,8 +1,21 @@
 {% extends 'base.html' %}
 {% block conteudo %}
-  <p>
-    Dani Alves
-  </p>
+    <nav>
+      <ul class="text-center">
+          <section class="text-center" id="boasVindas">
+            <h1>Dani Alves</h1>
+          </section>
+          <h4>
+          Principais títulos:
+          </h4>
+          <h5>
+            Champions League: 2009, 2011, 2015
+          </h5>
+        <h5>
+            Copa América: 2019
+        </h5>
 
-  <img src="{{url_for('static', filename='imagens/da.jpg')}}">
+      </ul>
+    </nav>
+        <img class="w-50 p-3 d-block mx-auto" src="{{url_for('static', filename='imagens/da.jpg')}}">
 {% endblock %}

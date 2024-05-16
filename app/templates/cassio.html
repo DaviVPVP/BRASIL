@@ -1,8 +1,21 @@
 {% extends 'base.html' %}
 {% block conteudo %}
-  <p>
-    Cassio
-  </p>
+    <nav>
+      <ul class="text-center">
+          <section class="text-center" id="boasVindas">
+            <h1>Cassio Ramos</h1>
+          </section>
+          <h4>
+          Principais títulos:
+          </h4>
+          <h5>
+            Libertadores: 2012
+          </h5>
+        <h5>
+            Mundial de clubes: 2012
+        </h5>
 
-  <img src="{{url_for('static', filename='imagens/cassio.jpg')}}">
+      </ul>
+    </nav>
+        <img class="w-50 p-3 d-block mx-auto" src="{{url_for('static', filename='imagens/cassio.jpg')}}">
 {% endblock %}

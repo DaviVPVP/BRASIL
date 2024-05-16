@@ -1,7 +1,11 @@
 {% extends 'base.html' %}
 {% block conteudo %}
-    <p>
-        Os maiores jogadores brasileiros da década de 2010!
-    </p>
-        <img src="{{url_for('static', filename='imagens/ney.jpg')}}">
+    <nav>
+      <ul class="text-center">
+          <h3>
+          Confira aqui os maiores jogadores brasileiros da década de 2010!
+          </h3>
+      </ul>
+    </nav>
+        <img class="w-50 p-3 d-block mx-auto" src="{{url_for('static', filename='imagens/ney.jpg')}}">
 {% endblock %}

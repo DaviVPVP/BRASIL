@@ -1,8 +1,21 @@
 {% extends 'base.html' %}
 {% block conteudo %}
-  <p>
-    Marcelo
-  </p>
+    <nav>
+      <ul class="text-center">
+          <section class="text-center" id="boasVindas">
+            <h1>Marcelo</h1>
+          </section>
+          <h4>
+          Principais títulos:
+          </h4>
+          <h5>
+            Champions League: 2014, 2016, 2017, 2018, 2022
+          </h5>
+        <h5>
+            Libertadores: 2023
+        </h5>
 
-  <img src="{{url_for('static', filename='imagens/marcelo.jpg')}}">
+      </ul>
+    </nav>
+        <img class="w-50 p-3 d-block mx-auto" src="{{url_for('static', filename='imagens/marcelo.jpg')}}">
 {% endblock %}
