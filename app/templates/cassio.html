@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block conteudo %}
+<div class="bg-dark text-white py-4">
     <nav>
       <ul class="text-center">
           <section class="text-center" id="boasVindas">
@@ -18,4 +19,6 @@
       </ul>
     </nav>
         <img class="w-50 p-3 d-block mx-auto" src="{{url_for('static', filename='imagens/cassio.jpg')}}">
+</div>
+    <footer class="text-center bg-white text-black text-center position-fixed bottom-0 w-100 py-2"> Desenvolvido por {{nome}}</footer>
 {% endblock %}
