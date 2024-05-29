@@ -6,19 +6,22 @@
           <section class="text-center" id="boasVindas">
             <h1>Cassio Ramos</h1>
           </section>
-          <h4>
-          Principais títulos:
-          </h4>
-          <h5>
-            Libertadores: 2012
-          </h5>
-        <h5>
-            Mundial de clubes: 2012
-        </h5>
-
       </ul>
     </nav>
+    <a href="/case">
         <img class="w-50 p-3 d-block mx-auto" src="{{url_for('static', filename='imagens/cassio.jpg')}}">
+    </a>
+    <h4 class="text-center mt-4 mb-4">
+        Principais conquistas:
+    </h4>
+    <h5 class="text-center">
+        Libertadores: 2012;
+    </h5>
+    <h5 class="text-center">
+        Mundial de clubes: 2012.
+    </h5>
 </div>
-    <footer class="text-center bg-white text-black text-center position-fixed bottom-0 w-100 py-2"> Desenvolvido por {{nome}}</footer>
+    <footer class="text-center bg-white text-black text-center bottom-0 w-100 py-2">
+      Desenvolvido por {{nome}}
+    </footer>
 {% endblock %}

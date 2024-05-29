@@ -81,7 +81,7 @@ def atualizar():
 def excluir():
     try:
         requisicao = requests.delete(f'{link}/cadastrar/-NySQnFYhcqZa52HjaK1/.json')
-        return "Excluído com sucesso"
+        return "Excluído com sucesso!"
     except Exception as e:
         return f'Houve um erro\n\n + {e}'
 
